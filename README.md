@@ -38,7 +38,7 @@ pip install pillow
 ### 将文件写入图片
 
 ```bash
-python file2img.py -w --file D:\\archive.zip --image D:\\image.jpg --dest D:\\archive.bmp
+python file2img.py -w --file D:\\archive.zip --img D:\\image.jpg --dest D:\\archive.bmp
 ```
 
 `D:\archive.zip` 文件内容将会写入到 `D:\image.jpg`，带有数据的图片会保存到 `D:\archive.bmp`。
@@ -46,7 +46,7 @@ python file2img.py -w --file D:\\archive.zip --image D:\\image.jpg --dest D:\\ar
 ### 从图片中提取文件
 
 ```bash
-python file2img.py -r --image D:\\archive.bmp --dest D:\\
+python file2img.py -r --img D:\\archive.bmp --dest D:\\
 ```
 
 `D:\archive.bmp` 中的文件将被读取并写入到 `D:` 目录，文件名从图片中读取。
